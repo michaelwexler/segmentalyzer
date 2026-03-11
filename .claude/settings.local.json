@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"C:\\\\Users\\\\mwexl\\\\OneDrive\\\\Documents\\\\Development\\\\segmentalyzer\\\\app.py\":*)",
+      "Bash(uv run python -c \"from segmentalyzer.loader import load_csv, detect_and_normalize; from segmentalyzer.calculations import compute_metrics; from segmentalyzer.charts import chart_lift_vs_difference; print\\(''All imports OK''\\)\")"
+    ]
+  }
+}
